@@ -1,0 +1,115 @@
+.mrContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.mrContent {
+    flex: 1;
+}
+
+.mrBtnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 60px; 
+    position: sticky;
+    z-index: 1;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+.dark-theme .mrRadioHeader,
+.dark-theme .mrContent span{
+    color: white;
+}
+
+
+.shadowBox {
+    background-color: white;
+    box-shadow: 0 -20px 27px rgb(0 0 0 / 10%);
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.dark-theme .shadowBox {
+    background-color: #333333 !important;
+    box-shadow: 0 -20px 27px rgb(0 0 0 / 10%);
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+.mrBtn {
+    border: 1px solid #609da1;
+    color: #609da1;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.mrBtn:hover {
+    color: white;
+    background-color: #609da1;
+}
+
+.mrContent {
+    margin-left: 20px;
+}
+
+.mrRadioHeader {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.account {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.mrCheckbox {
+    font-size: 18px;
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.mappingContainer {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mappingRowsHeader {
+    color: #609da1;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.extra-width {
+    width: 50%;
+}
+
+.mappingFieldName {
+    font-size: 16px;
+}
+
+.mappingSelect .ant-select-selector {
+    height: 40px !important;
+}
+
+.mappingSelect .ant-select-selector .ant-select-selection-item,
+.mappingSelect .ant-select-selector .ant-select-selection-placeholder {
+    align-self: center;
+}
+
+.space-holder {
+    margin-bottom: 280px;
+}

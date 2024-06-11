@@ -1,0 +1,9 @@
+.dashedLine {
+    border: 1px dashed #000;
+    width: 1px;
+    height: 4rem;
+}
+
+.fullWidth span {
+    display: block;
+}

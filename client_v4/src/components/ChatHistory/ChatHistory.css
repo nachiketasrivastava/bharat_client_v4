@@ -1,0 +1,31 @@
+/* ChatHistory.css */
+
+.chat-history-container {
+    /* height: 100%; Ensure it takes up the full height */
+    position: relative; /* Position relative for absolute positioning */
+}
+
+.chat-history-content {
+    position: absolute; /* Position absolute */
+    width: 250px; /* Take up full width */
+    bottom: 0; /* Stick to the bottom */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f6eded;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #D75D3D;
+}

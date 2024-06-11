@@ -1,0 +1,52 @@
+.plan-container {
+    width: 100%;
+    padding-bottom: 400px;
+}
+
+.plan-label {
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.plan-select {
+    /* padding: 10px; */
+    border: 1px solid #E4E7EC;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.plan-btn {
+    width: 100%;
+}
+
+.plan-btn > button {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    /* margin-bottom: 200px; */
+    float: right;
+    background-color: #d75d3dcc;
+    color: white;
+}
+
+.plan-btn > button:hover {
+    cursor: pointer;
+    background-color: #eea897cc;
+    color: white;
+}
+
+.plan-btn > button:disabled {
+    color: #999999;
+    background-color: #E4E7EC;
+    cursor: not-allowed;
+}
+
+.plan-select .ant-select-selection-item {
+    padding: 10px;
+}
+
+

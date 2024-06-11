@@ -1,0 +1,15 @@
+.modal-page {
+    width: 50% !important;
+}
+
+.modal-page-cancel-btn:hover,
+.download-btn:hover {
+    background-color: #E07E65 !important;
+    color: white !important;
+    border-color: white !important;
+    scale: 1.1 !important;
+}
+
+.delete-confirm-modal {
+    width: 30% !important;
+}

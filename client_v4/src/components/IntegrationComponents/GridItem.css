@@ -1,0 +1,17 @@
+.modal-pageGridItem .ant-modal-content{
+    width: fit-content;
+    padding: 0 24px !important;
+    left: 30%;
+}
+.gridItemtext{
+    padding: 12px;
+    font-size: 14px;
+}
+.sync-button{
+    align-items: center;
+    display: flex;
+}
+.connectedApps{
+    display: flex;
+    justify-content: space-between;
+}

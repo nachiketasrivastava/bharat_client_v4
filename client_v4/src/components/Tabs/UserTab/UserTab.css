@@ -1,0 +1,118 @@
+.user-row {
+  display: flex;
+  width: 100%;
+}
+
+.user-name {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* margin-right: 10px;  */
+}
+
+.user-name:first-child {
+  margin-right: 10px;
+}
+
+.user-label {
+  font-size: 16px;
+  font-family: "Roboto";
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.user-input {
+  padding: 10px;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.user-column {
+  width: 100%;
+}
+
+.password-container {
+  display: flex;
+  width: 100%;
+  /* padding-bottom: 115px; */
+}
+.password {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-right: 10px;
+}
+
+.password > input {
+  padding: 6px 10px;
+  font-size: 22px;
+  color: #616161;
+  font-weight: bold;
+}
+
+.btn {
+  width: 15%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 20px; */
+
+  border-radius: 8px;
+  text-align: center;
+
+  color: white;
+  background: #d75d3dcc;
+  padding: 8px;
+
+  margin-top: 38px;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #e80d0d;
+  color: #000000;
+}
+
+.btn.disabled {
+  color: #999999;
+  background-color: #e4e7ec;
+  cursor: not-allowed;
+}
+
+.user-btn {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.user-btn > button {
+  border: none;
+  outline: none;
+  /* margin-top: 20px; */
+  padding: 8px 12px;
+  border-radius: 8px;
+  /* margin-bottom: 200px; */
+  /* float: right; */
+  background-color: #d75d3dcc;
+  color: white;
+}
+
+.user-btn > button:hover {
+  cursor: pointer;
+  background-color: #eea897cc;
+  color: white;
+}
+
+.user-btn > button:disabled {
+  color: #999999;
+  background-color: #e4e7ec;
+  cursor: not-allowed;
+}
+
+.disabled-input {
+  width: 100%;
+  height: 100%;
+  cursor: not-allowed;
+}

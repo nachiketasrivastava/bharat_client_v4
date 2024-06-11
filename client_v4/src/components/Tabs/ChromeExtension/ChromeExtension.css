@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.ceContainer {
+    font-family: 'Roboto';
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.ceOptionsContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.ceCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ceCard:hover, .cardActive {
+    transform: scale(1.05);
+    box-shadow: 0 20px 27px rgb(0 0 0 / 10%) !important;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.cardActive {
+    box-shadow: 0 20px 27px rgba(96, 157, 161, 0.3) !important;
+    border: 2px solid #609da1;
+}
+
+.cardImg {
+    width: 150px;
+}
+.dark-theme .salesForceCard .ant-card-body{
+    background-color: #444444;
+    color: white;
+}

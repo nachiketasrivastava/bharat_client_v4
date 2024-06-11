@@ -1,0 +1,9 @@
+.custom-modal .ant-modal-content .ant-modal-footer .ant-btn:hover{
+    background-color: #609DA1;
+    color: white;
+    border-color: #609DA1;
+    /* max-height: 100%; */
+}
+.custom-modal-dark .ant-modal-content{
+    background-color: #444444 !important;
+}

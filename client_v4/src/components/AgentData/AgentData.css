@@ -1,0 +1,17 @@
+.newLeadsTable .ant-table-cell {
+    padding: 15px 5px !important; 
+  }
+
+  .center-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Set the height of the container to the full viewport height */
+  }
+
+.leadsTableCard .ant-card-body{
+padding-top: 5px;
+}
+.blurred {
+  filter: blur(3px); /* Adjust the blur intensity as needed */
+}

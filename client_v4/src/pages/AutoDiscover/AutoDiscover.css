@@ -1,0 +1,8 @@
+.auto-discover-container{
+    display: flex;
+    height: 100%;
+    overflow-y: auto;
+}
+.auto-discover-scrollable{
+    height: 100%;
+}

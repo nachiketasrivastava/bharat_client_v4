@@ -1,0 +1,101 @@
+.invite-container {
+    width: 100%;
+    padding-bottom: 390px;
+}
+
+.invite-label {
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.invite-input {
+    padding: 15px 10px 10px 12px;
+    width: 100%;
+    height: 251px;
+    background: #FFFFFF;
+
+    border: 1px solid #E4E7EC;
+    border-radius: 8px;
+}
+
+.dark-theme .creatableSelect  .css-12a83d4-MultiValueRemove .css-tj5bde-Svg{
+    fill: #444444 !important;
+}
+.invite-input:placeholder-shown {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+}
+
+.invite-btn {
+    width: 100%;
+}
+
+.invite-btn > button {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 8px 40px;
+    border-radius: 8px;
+    /* margin-bottom: 200px; */
+    float: right;
+    background-color: #d75d3dcc;
+    color: white;
+}
+
+.invite-btn > button:hover {
+    cursor: pointer;
+    background-color: #54868D;
+    color: white;
+}
+
+.invite-btn > button:disabled {
+    color: #999999;
+    background-color: #E4E7EC;
+    cursor: not-allowed;
+}
+
+.email-container {
+    position: absolute;
+    top: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.email-tag {
+    margin-right: 5px;
+    border: 0.5px solid black;
+    border-right: none;
+    padding: 5px;
+    padding-right: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.delete-button {
+    border: none;
+    outline: none;
+    background: none;
+    border: 0.5px solid black;
+    background-color: #F5F5F5;
+    color: black;
+    height: 30px;
+}
+
+.delete-button:hover {
+    background-color: red;
+}
+
+.dark-theme .creatableSelect .css-13cymwt-control{
+    background-color: #444444;
+}
+.dark-theme .creatableSelect .css-t3ipsp-control{
+    background-color: #444444;
+}

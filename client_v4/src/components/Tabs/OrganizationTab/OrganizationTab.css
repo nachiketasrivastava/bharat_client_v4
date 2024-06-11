@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.form-row {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 0; */
+  width: 100%;
+}
+
+.last-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.last-div {
+  width: 50%;
+}
+
+.last-div:first-child {
+  margin-right: 10px;
+}
+
+.form-btn {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.form-btn > button {
+  border: none;
+  outline: none;
+  /* margin-top: 20px; */
+  padding: 8px 12px;
+  border-radius: 8px;
+  /* margin-bottom: 200px; */
+  /* float: right; */
+  background-color: #d75d3dcc;
+  color: white;
+}
+
+.form-btn > button:hover {
+  cursor: pointer;
+  background-color: #eea897cc;
+  color: white;
+}
+
+.form-btn > button:disabled {
+  color: #999999;
+  background-color: #e4e7ec;
+  cursor: not-allowed;
+}
+
+.form-label {
+  font-size: 16px;
+  font-family: "Roboto";
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.form-input {
+  padding: 10px;
+  border: 1px solid #e4e7ec;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.organisation-select,
+.organisation-select .ant-select-selector {
+  height: 44px !important;
+  width: 100%;
+}
+
+.organisation-select .ant-select-selector {
+  padding-top: 4px !important;
+  font-size: 15px;
+  color: inherit;
+}
+
+.drop-box {
+  height: 145px;
+  width: 100%;
+  background: #fcfdfd;
+  border: 1px dashed #d75d3dcc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 4px;
+  transition: all 0.3s ease;
+}
+
+.drop-box.drag-active {
+  transform: scale(0.9);
+  background-color: #d75d3dcc;
+}
+
+.drop-box.drag-active span {
+  color: #000000 !important;
+  text-transform: uppercase;
+}
+
+.preview {
+  display: flex;
+  height: 145px;
+  width: 100%;
+}
+
+.logo-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 40px;
+  margin-right: 16px;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text-column {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 16px;
+  gap: 8px;
+}
+
+.text-header {
+  font-family: "Roboto", "sans-serif";
+  color: #122d3e;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dark-theme .text-header{
+  color: #d75d3dcc;
+}
+
+.text {
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  color: #aaaaaa;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.upload-button {
+  border: none;
+  padding: 0;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #d75d3dcc;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 8px;
+}
+
+.upload-button:hover {
+  cursor: pointer;
+  background-color: #eea897cc;
+  color: white;
+}
+
+.delete-button {
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff !important;
+  border: 1px solid #fe8484 !important;
+  color: #fe8484 !important;
+  cursor: pointer;
+  height: 100% !important;
+  padding: 6px 30px;
+  border-radius: 8px;
+}
+.dark-theme .drop-box{
+  background-color: #444444 !important;
+}
+.dark-theme .drop-box span{
+  color: white !important;
+}
+.delete-button:hover {
+  cursor: pointer;
+  background-color: red !important;
+  color: white !important;
+}
+
+.websiteDisabled {
+  cursor: not-allowed;
+  color: black;
+  background-color: #f1f4f8;
+}

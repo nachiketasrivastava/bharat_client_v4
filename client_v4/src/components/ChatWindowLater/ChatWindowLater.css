@@ -1,0 +1,20 @@
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.tl-question {
+    border-right: 20px solid #E07E65;
+}
+
+.tl-answer {
+    border-right: 20px solid #E5E7EB;
+}
+
+.laterTextArea {
+    border: none !important;
+    box-shadow: none !important;
+}
+  

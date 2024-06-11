@@ -1,0 +1,72 @@
+.map-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.map-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #101828;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.map-subheader {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+.map {
+  border: 1px solid #EEF5F6;
+  border-radius: 8px;
+  margin-top: 30px;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.map-input-fields,
+.map-dest {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map-input-fields {
+  margin-right: 200px;
+}
+
+.map-dest {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.input-header {
+  color: #54888B;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.map-fields {
+  font-weight: 400;
+  color: #122D3E;
+}
+
+.map-input {
+  margin-top: 7px;
+}
+
+.map-select {
+  width: 300px;
+}

@@ -1,0 +1,72 @@
+[
+    {
+      "label": "05/27/2024",
+      "question": 30,
+      "report": 5,
+      "csv": 2,
+      "docs": 1
+    },
+    {
+      "label": "05/28/2024",
+      "question": 25,
+      "report": 3,
+      "csv": 1,
+      "docs": 5
+    },
+    {
+      "label": "05/29/2024",
+      "question": 50,
+      "report": 10,
+      "csv": 3,
+      "docs": 4
+    },
+    {
+      "label": "05/30/2024",
+      "question": 17,
+      "report": 3,
+      "csv": 0,
+      "docs": 8
+    },
+    {
+      "label": "05/31/2024",
+      "question": 52,
+      "report": 6,
+      "csv": 1,
+      "docs": 7
+    },
+    {
+      "label": "06/01/2024",
+      "question": 0,
+      "report": 0,
+      "csv": 0,
+      "docs": 0
+    },
+    {
+        "label": "06/01/2024",
+        "question": 5,
+        "report": 1,
+        "csv": 0,
+        "docs": 0
+    },
+    {
+        "label": "06/02/2024",
+        "question": 17,
+        "report": 2,
+        "csv": 4,
+        "docs": 2
+    },
+    {
+        "label": "06/03/2024",
+        "question": 80,
+        "report": 12,
+        "csv": 10,
+        "docs": 10
+    },
+    {
+        "label": "06/04/2024",
+        "question": 36,
+        "report": 5,
+        "csv": 1,
+        "docs": 2
+    }
+  ]

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.settings-container {
+    background-color: white;
+    margin-left: 1px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    /* Tabs CSS */
+
+.tab-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-create-work {
+    background-color: #d75d3dcc !important;
+    color: white !important;
+    font-family: 'Roboto';
+}
+
+.btn-create-work:hover {
+    background-color: white !important;
+    color: #d75d3dcc !important;
+}
+
+.settings-tab-container {
+    /* display: flex; */
+    /* background-color: green; */
+    width: fit-content;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    gap: 22px;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+}
+
+.tabs {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* line-height: 20px; */
+
+    border-radius: 8px;
+    text-align: center;
+
+    color: #999999;
+    padding: 8px;
+}
+
+.tabs:hover {
+    cursor: pointer;
+    background-color: #eea897cc;
+    color: white;
+}
+
+.active,
+.active:hover {
+    color: white;
+    background: #d75d3dcc;
+}
+
+    /* ---------- */
+
+    /* Header CSS */
+
+.settings-header {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+
+.plan-credit-text {
+    color: #ADADAD;
+    font-size: 14px;
+}
+
+.plan-credit-text:first-child{
+    margin-left: 8px;
+}
+
+.plan-credit-text:nth-child(2) {
+    color: #d75d3dcc;
+}
+
+    /* -------- */
+
+    /* Form CSS */
+
+.settings-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+/* ----------- */

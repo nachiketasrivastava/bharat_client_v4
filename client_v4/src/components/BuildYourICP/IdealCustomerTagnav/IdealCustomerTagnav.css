@@ -1,0 +1,84 @@
+/* .modal-page{
+    border-top: 22px solid #609da1;
+} */
+
+.card-page {
+  border-top: 10px solid #E07E65;
+}
+.jfm-tag-data {
+  color: #E07E65;
+  padding: 0.25em;
+  /* background-color: rgb(243 244 246); */
+  border-radius: 0.25em;
+  font-size: 12px;
+}
+.pagination .ant-pagination-simple-pager input {
+  border: none !important;
+  width: 8px;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #E07E65 !important;
+}
+.pagination .ant-pagination-simple-pager {
+  background-color: #E07E65 !important;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: white;
+}
+.pagination .ant-pagination-simple-pager span {
+  margin: 0 4px;
+}
+.pagination .anticon svg {
+  margin: 0 !important;
+  display: block !important;
+  fill: #E07E65 !important;
+}
+
+@media (min-width: 768px) {
+  .buildicp-responsive {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 425px) {
+  .buildicp-responsive-modal {
+    padding-top: 0 !important;
+  }
+  .buildicp-responsive {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media (max-width: 375px) {
+  .modal-page .ant-modal-content {
+    padding: 20px 5px;
+  }
+}
+
+.edit-col {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border-left-width: 0 !important;
+}
+
+.edit-pdf {
+  padding: 0 10px !important;
+  height: 35px !important;
+  border: none;
+  box-shadow: none !important;
+}
+
+.edit-pdf:hover {
+  color: white !important;
+  background-color: #E07E65 !important;
+}
+
+.icons-edit {
+  font-size: 12px;
+}
+
+.gray-btn Button {
+  background-color: rgb(249 250 251) !important;
+}

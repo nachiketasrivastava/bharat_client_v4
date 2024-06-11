@@ -1,0 +1,20 @@
+.catalogue-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: -10px;
+    right: -10px;
+    cursor: se-resize;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+.catalogue-resizable-handle svg {
+    width: 12px;
+    height: 12px;
+    color: white;
+}

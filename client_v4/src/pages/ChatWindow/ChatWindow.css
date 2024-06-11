@@ -1,0 +1,27 @@
+
+  .chat-history-container {
+    position: sticky;
+    top: 0; /* Stick to the top */
+    height: 100vh; /* Set height to full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .chat-content-container {
+    overflow-y: auto;
+  }
+  /* ChatWindow.css */
+
+.chat-window-container {
+    display: flex;
+    height: 100%;
+}
+  
+  .chat-history-scrollable {
+    height: 100%;
+  }
+  
+  .chat-content-scrollable {
+    height: 100%;
+  }
+  
+  
